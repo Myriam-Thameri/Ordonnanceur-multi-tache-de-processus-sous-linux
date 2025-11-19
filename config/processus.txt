@@ -1,11 +1,11 @@
-# Fichier de configuration des processus
-# Format : PID temps_arrivee duree priorite
-# (les lignes commençant par # sont ignorées)
+P1 0 24 3
+IO 8 10
+IO 18 6
 
-5                  # nombre de processus (obligatoire en première ligne utile)
+P2 2 15 1
+IO 5 12
 
-1   0   7   3      # PID | arrivée | durée | priorité (plus petit = plus prioritaire)
-2   1   4   1
-3   2   9   4
-4   4   5   2
-5   10  2   5
+P3 5 10 2
+
+P4 7 20 4
+IO 6 8

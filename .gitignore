@@ -1,0 +1,13 @@
+# Exécutable compilé
+fifo
+fifo.exe
+
+# Fichiers objets
+*.o
+
+# IDE / éditeurs
+.vscode/
+.idea/
+.DS_Store
+*~
+.#*
